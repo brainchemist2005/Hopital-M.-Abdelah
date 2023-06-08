@@ -1,0 +1,224 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face 
+{
+    font-family: 'Gotham';
+    src: url('path/to/Gotham-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+}
+
+.top
+{
+    display: flex;
+    background-color: #edfcff;
+    border: 0px;
+    margin-bottom:0px ;
+}
+
+.boutton
+{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 60px;
+    height: 60px;
+    background-color: #edfcff;
+    border-width: 0;
+}
+.boutton img
+{
+    width: 50%;
+}
+
+#logo
+{
+    width: 15%;
+    border-radius: 100%;
+    padding-left: 0%;
+}
+
+.navbar
+{
+    margin-top: 50px;
+}
+
+.navbar ul li a 
+{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.navbar ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #1f6ed4;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-family: 'Gotham' , sans-serif;
+}
+
+.navbar ul li :hover:after
+{
+    width: 100%;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left
+{
+}
+
+.right
+{
+}
+
+.Container1
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gotham' , sans-serif;
+    background-color: #b7e5f6;
+    width: 60%;
+}
+
+.Container1 h1
+{
+    text-align:  center;
+}
+
+.Container1 p
+{
+    width: 30%;
+    font-size: 160%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plainte
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label
+{
+    margin-top: 10px;
+}
+
+#name
+{
+    display: inline;
+}
+
+#prenom
+{
+    border-radius: 5px;
+    height: 30px;
+}
+
+#nom
+{
+    border-radius: 5px;
+    height: 30px;
+}
+
+.sex
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#Women
+{
+    margin-left: 100px;
+}
+
+#NSS
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 337px;
+}
+
+#Type
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 337px;
+    border: 2px solid;
+}
+
+#Description
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 100px;
+    width: 337px;
+    resize:none;
+    border: 2px solid;
+}
+
+#email
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 337px;
+}
+
+#submit 
+{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 50%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fcfcfc;
+    transition: 0.5s;
+    left: 0;
+    bottom: 0;
+}
+
+input#submit:hover 
+{
+    background-color: #3676bf;
+    color: #fff;
+    width: 100%;
+}
+
+
+
+
+#bottom-text
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 100%;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <meta http-equiv="X-VA-Compatible" content="IE=edge">
+        <title>Visite et Plainte</title>
+    </head>
+
+    <link rel="stylesheet" type="text/css" href="PlaintesVisite.css">
+
+    <body>
+        <div class="top">
+            <img id="logo" src="logo tp1.PNG" alt="logo" >
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="TP1.css">Page d'acceuil</a></li>
+                    <li><a href="#">Centre de recherche</a></li>
+                    <li><a href="#">Stage et embauche</a></li>
+                    <li><a href="#">A propos de nous</a></li>
+                </ul>
+            </div>
+
+            <button type="button" class="boutton">
+                <a href="#recherche">
+                    <img src="https://icons.veryicon.com/png/o/miscellaneous/general-icon-collection-linear-fillet/icon_search-9.png" alt="Search Icon">
+                </a>
+            </button>            
+        </div>
+
+        <div class="main">
+            <div class="left">
+            </div>
+            <div class="Container1">
+                <h1>
+                    Bienvenue dans notre section de plainte
+                </h1>
+
+                <p>Nous sommes navrés que vous ayez rencontré un problème dans notre institution.<br><br>Prenez quelques minutes et racontez-nous ce qui s'est passé.</p>
+                <div class="plainte">  
+                    <div id="name">                  
+                    <input type="text" id="prenom" name="prenom" placeholder="Votre prenom" required>
+
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                </div>
+
+                <div class="sex">
+                    <input type="radio" name="gender" value="Homme" id="Men">
+                    <label for="Homme">Homme</label>
+
+                    <input type="radio" name="gender" value="Femme" id="Women">
+                    <label for="Femme">Femme</label>
+                </div>
+
+                    <label for="NSS">Numero de sante sociale</label>
+                    <input type="text" id="NSS" name="NSS" placeholder="SS01233456789" required>
+
+                    <label for="Type">Type de problème</label>
+                    <select id="Type" name="type">
+                        <option value="Staff">Personnel</option>
+                        <option value="Site">Site</option>
+                        <option value="Soin">Soins</option>
+                        <option value="Financiere">Financière</option>
+                        <option value="other">Autre</option>
+                    </select>
+
+                    <label for="Description">Qu'est ce qui s'est passé ?</label>
+                    <textarea id="Description" name="Description" placeholder="Dites nous en details" required></textarea>
+                    
+                    <label for="email">Votre addresse couriel</label>
+                    <input type="text" id="email" name="email" placeholder="example@company.com" required>
+
+                    <input type="submit" id="submit" value="Soumettre">
+
+                </div>
+
+            <p id="bottom-text">Nous vous contacterons dans un délai de 2 à 3 jours ouvrables concernant votre plainte.</p>
+
+            </div>
+            <div class="right">
+
+            </div>
+        </div>
+    </body>
+</html>
