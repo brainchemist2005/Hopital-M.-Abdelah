@@ -33,11 +33,19 @@ body
     width: 50%;
 }
 
+#Alogo
+{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 #logo
 {
-    width: 15%;
-    border-radius: 100%;
+    width: 100%;
+    border-radius: 10px;
     padding-left: 0%;
+    margin-top: 0px;
 }
 
 .navbar
@@ -399,4 +407,20 @@ body
     height: 20px;
     text-decoration: underline;
     border-color: white;
+}
+
+.Footer span
+{
+    border-style:outset ;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 20px;
+}
+
+.mail
+{
+    border-style:outset ;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 20px;
 }

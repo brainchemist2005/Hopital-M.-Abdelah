@@ -1,0 +1,12 @@
+body
+{
+    .top
+    {
+        display: flex;
+        background-color: #edfcff;
+        border: 0px;
+        margin-bottom:0px ;
+        justify-content: space-between;
+        height: 100px;
+    }
+}

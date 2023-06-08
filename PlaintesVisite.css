@@ -16,12 +16,13 @@ body
     background-color: #edfcff;
     border: 0px;
     margin-bottom:0px ;
+    justify-content: space-between;
+    height: 100px;
 }
 
 .boutton
 {
-    margin-top: 50px;
-    margin-left: 200px;
+    margin-top: 20px;
     width: 60px;
     height: 60px;
     background-color: #edfcff;
@@ -32,16 +33,23 @@ body
     width: 50%;
 }
 
+#Alogo
+{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 #logo
 {
-    width: 15%;
-    border-radius: 100%;
-    padding-left: 0%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .navbar
 {
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-right: 150px;
 }
 
 .navbar ul li a 
@@ -98,7 +106,7 @@ body
     flex-direction: column;
     font-family: 'Gotham' , sans-serif;
     background-color: #b7e5f6;
-    width: 60%;
+    width: 70%;
 }
 
 .Container1 h1
@@ -108,7 +116,7 @@ body
 
 .Container1 p
 {
-    width: 30%;
+    width: 50%;
     font-size: 160%;
     margin-left: auto;
     margin-right: auto;
@@ -120,6 +128,9 @@ body
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid #939fae;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 label
@@ -207,7 +218,7 @@ label
 
 input#submit:hover 
 {
-    background-color: #3676bf;
+    background-color: #6ad474;
     color: #fff;
     width: 100%;
 }
@@ -221,4 +232,71 @@ input#submit:hover
     margin-top: 50px;
     font-size: 20px;
     width: 100%;
+}
+
+.Footer
+{
+    display: flex;
+}
+
+.Instagram img
+{
+    width: 100%;
+}
+
+.Facebook img
+{
+    width: 120%;
+}
+
+.Facebook
+{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 100%;
+    border: white;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.Instagram 
+{
+    margin-top: 20px;
+    width: 80px;
+    border-radius: 100%;
+    border: white;
+    background-color: #fff;
+    cursor: pointer;;
+}
+
+.addresse
+{
+    border-style:outset ;
+    margin-top: 30px;
+    height: 20px;
+    text-decoration: underline;
+    border-color: white;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+
+.Footer span
+{
+    border-style:outset ;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.mail
+{
+    border-style:outset ;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 2px;
 }
