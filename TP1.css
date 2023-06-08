@@ -1,0 +1,270 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face 
+{
+    font-family: 'Gotham';
+    src: url('path/to/Gotham-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+}
+
+.top
+{
+    display: flex;
+    background-color: #edfcff;
+    border: 0px;
+    margin-bottom:0px ;
+}
+
+.boutton
+{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 60px;
+    height: 60px;
+    background-color: #edfcff;
+    border-width: 0;
+}
+.boutton img
+{
+    width: 50%;
+}
+
+#logo
+{
+    width: 15%;
+    border-radius: 100%;
+    padding-left: 0%;
+}
+
+.navbar
+{
+    margin-top: 50px;
+}
+
+.navbar ul li a 
+{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.navbar ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #1f6ed4;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-family: 'Gotham' , sans-serif;
+}
+
+.navbar ul li :hover:after
+{
+    width: 100%;
+}
+
+.mid
+{
+    background-color: #9FABB5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; 
+}
+
+.mid img
+{
+    margin-top: 0px;
+    order: 3;
+    width: 650px;
+    height: 800px;
+    margin-left: 370px;
+}
+
+.mid
+{
+    height: 800px;
+}
+
+
+
+#description
+{
+    text-align: center;
+    font-size: clamp(40px,4.5vw,60px);
+    font-family: 'Gotham' , sans-serif;
+    margin-left: 0%;
+    border: none;
+}
+
+#recherche
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 55%;
+    margin-left:25%;
+    order: 2;
+}
+
+#recherche::placeholder
+{
+    text-align: center;
+}
+
+
+.middle-bottom
+{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #f1f8f8;
+    font-family: 'Gotham' , sans-serif;
+}
+
+.middle-bottom h2
+{
+    text-align: center;
+    margin-top: 270px;
+}
+
+.middle-bottom p 
+{
+    font-size: 110%;
+    width: 60%;
+    margin-right: 10px ;
+    font-family: 'Gotham' , sans-serif;
+}
+
+.middle-bottom img
+{
+    margin-right: 10px;
+    width: 50%;
+    height: 50%;
+}
+
+#partie1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-bottom button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #3676bf;
+    background: transparent;
+    color: #3676bf;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.5s;
+}
+
+.middle-bottom button span {
+    background-color: #3676bf;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.middle-bottom button:hover {
+    background-color: #3676bf;
+    color: #fff;
+}
+
+.middle-bottom button:hover span {
+    width: 100%;
+}
+
+
+.middle-foot
+{
+    background-color: #609ad3;
+    display: flex;
+    flex-direction: row;
+}
+
+.submiddle-foot
+{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.middle-foot h2
+{
+    margin-top: 0px;
+}
+.middle-foot p
+{
+    font-family: 'Gotham' , sans-serif;
+    margin: 0px;
+}
+
+.Footer
+{
+    display: flex;
+}
+
+.Instagram img
+{
+    width: 100%;
+}
+
+.Facebook img
+{
+    width: 120%;
+}
+
+.Facebook
+{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 100%;
+    border: white;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.Instagram 
+{
+    margin-top: 20px;
+    width: 80px;
+    border-radius: 100%;
+    border: white;
+    background-color: #fff;
+    cursor: pointer;;
+}
+
+.addresse
+{
+    border-style:outset ;
+    margin-top: 20px;
+}
