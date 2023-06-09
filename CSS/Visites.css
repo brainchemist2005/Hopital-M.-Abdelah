@@ -1,12 +1,159 @@
 body
 {
-    .top
-    {
-        display: flex;
-        background-color: #edfcff;
-        border: 0px;
-        margin-bottom:0px ;
-        justify-content: space-between;
-        height: 100px;
-    }
+    margin: 0px;
+    padding: 0px;
+}
+@font-face 
+{
+    font-family: 'Gotham';
+    src: url('path/to/Gotham-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+}
+
+.top
+{
+    display: flex;
+    background-color: #edfcff;
+    border: 0px;
+    margin-bottom:0px ;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.boutton
+{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #edfcff;
+    border-width: 0;
+}
+.boutton img
+{
+    width: 50%;
+}
+
+#Alogo
+{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#logo
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.navbar
+{
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.navbar ul li a 
+{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.navbar ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #1f6ed4;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-family: 'Gotham' , sans-serif;
+}
+
+.navbar ul li :hover:after
+{
+    width: 100%;
+}
+
+.middle-top
+{
+    display: flex;
+    background-color: #b7d3db;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+}
+
+.middle-top img
+{
+    width: 40%;
+}
+
+.EmploiT
+{
+    width: 50%;
+    height: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Gotham' , sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+
+}
+
+.EmploiT tbody
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.EmploiT thead tr {
+    font-size: 30px;
+    background-color: #6b847f;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.EmploiT th,
+.EmploiT td {
+    font-size: large;
+    padding: 12px 15px;
+    width: 100px;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+.EmploiT tbody tr {
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.EmploiT tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.EmploiT tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
 }
