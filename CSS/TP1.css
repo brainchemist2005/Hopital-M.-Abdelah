@@ -17,11 +17,13 @@ body
     background-color: #edfcff;
     border: 0px;
     margin-bottom:0px ;
+    justify-content: space-between;
+    height: 100px;
 }
 
 .boutton
 {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 200px;
     width: 60px;
     height: 60px;
@@ -50,7 +52,7 @@ body
 
 .navbar
 {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .navbar ul li a 
@@ -163,8 +165,8 @@ body
 {
     margin-top: 50px;
     margin-right: 10px;
-    width: 50%;
-    height: 50%;
+    width: 650px;
+    height: 650px;
     border-radius: 50px;
 }
 
