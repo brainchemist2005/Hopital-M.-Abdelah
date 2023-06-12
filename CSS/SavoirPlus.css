@@ -1,0 +1,182 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face 
+{
+    font-family: 'Gotham';
+    src: url('path/to/Gotham-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+}
+
+.top
+{
+    display: flex;
+    background-color: #edfcff;
+    border: 0px;
+    margin-bottom:0px ;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.boutton
+{
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 60px;
+    height: 60px;
+    background-color: #edfcff;
+    border-width: 0;
+}
+.boutton img
+{
+    width: 50%;
+}
+
+#Alogo
+{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#logo
+{
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 0%;
+    margin-top: 0px;
+}
+
+.navbar
+{
+    margin-top: 30px;
+}
+
+.navbar ul li a 
+{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.navbar ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #1f6ed4;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-family: 'Gotham' , sans-serif;
+}
+
+.navbar ul li :hover:after
+{
+    width: 100%;
+}
+
+.main h1
+{
+    text-align: center;
+}
+
+.main
+{
+    background-color: #a0a9b0;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gotham' , sans-serif;
+
+}
+
+.left
+{
+    margin-left: 25%;
+}
+
+.middle
+{
+    background-color: #f0e4be;
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.right
+{
+    margin-right: 25%;
+}
+
+.Footer
+{
+    display: flex;
+    background-color: white;
+}
+
+.Instagram img
+{
+    width: 100%;
+}
+
+.Facebook img
+{
+    width: 120%;
+}
+
+.Facebook
+{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 100%;
+    border: white;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.Instagram 
+{
+    margin-top: 20px;
+    width: 80px;
+    border-radius: 100%;
+    border: white;
+    background-color: #fff;
+    cursor: pointer;;
+}
+
+.addresse
+{
+    border-style:outset ;
+    margin-top: 30px;
+    height: 20px;
+    text-decoration: underline;
+    border-color: white;
+}
+
+.Footer span
+{
+    border-style:outset ;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 20px;
+}
+
+.mail
+{
+    border-style:outset ;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 20px;
+}

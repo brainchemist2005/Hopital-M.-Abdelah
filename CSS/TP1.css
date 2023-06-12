@@ -1,6 +1,7 @@
 body
 {
     margin: 0px;
+    background-color: #f0e4be;
     padding: 0px;
 }
 
@@ -102,24 +103,24 @@ body
     margin-top: 0px;
     order: 3;
     width: 650px;
-    height: 800px;
+    height: 750px;
     margin-left: 370px;
 }
 
 .mid
 {
-    height: 800px;
+    height: 750px;
 }
 
 
 
 #description
 {
-    text-align: center;
     font-size: clamp(40px,4.5vw,60px);
     font-family: 'Gotham' , sans-serif;
-    margin-left: 0%;
+    margin-left: 160px;
     border: none;
+    width: 100%;
 }
 
 #recherche
@@ -135,6 +136,7 @@ body
 #recherche::placeholder
 {
     text-align: center;
+    font-size: 20px;
 }
 
 
@@ -145,6 +147,7 @@ body
     flex-direction: row-reverse;
     background-color: #f0e4be;
     font-family: 'Gotham' , sans-serif;
+    margin-bottom: 25px;
 }
 
 .middle-bottom h2
@@ -168,6 +171,7 @@ body
     width: 650px;
     height: 650px;
     border-radius: 50px;
+    margin-bottom: 0px;
 }
 
 #partie1
@@ -217,10 +221,33 @@ body
 
 .middle-foot
 {
-    background-color: #f0e4be;
+    background-color: #aacae9;
     display: flex;
     flex-direction:row ;
     justify-content: space-between;
+    width: 100%;
+    height: 750px;
+}
+
+.middle-foot img
+{
+    margin-top: 100px;
+    margin-right: 50px;
+    height: 450px;
+}
+
+.middle-foot span 
+{
+    margin-top: 200px;
+    border: 2px solid ;
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 330px;
+}
+
+.middle-foot button
+{
+    width: 30%;
 }
 
 .submiddle-foot
@@ -272,11 +299,18 @@ body
 
 .article-container
 {
+    margin-top: 100px;
     background-color: #f0e4be;
     display: flex;
     flex-direction: column;
     border: solid;
     padding: 0px;
+    width: 80%;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-bottom: 100px;
 }
 
 .article-container h2
@@ -291,8 +325,7 @@ body
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    
+    border-radius: 20px;
 }
 
 .articles span
@@ -305,7 +338,7 @@ body
 
 .articles img
 {
-    width: 300px;
+    width: 250px;
     border-radius: 20px;
     align-items: center;
     margin-left: auto;
@@ -321,11 +354,13 @@ body
 
 .article1
 {
-    background-color:rgb(180, 232, 214);
+    background-color:rgb(180, 229, 232);
     display: flex;
     flex-direction: column;
     width: 310px;
+    height: 270px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .articles h2
@@ -338,12 +373,14 @@ body
 
 .article2
 {
-    background-color:rgb(180, 232, 214);
+    background-color:rgb(180, 229, 232);
     display: flex;
     flex-direction: column;
     width: 310px;
     border-radius: 10px;
     margin-right: 0px;
+    height: 270px;
+    text-align: center;
 }
 
 .article2 img
@@ -353,13 +390,14 @@ body
 
 .article3 
 {
-    background-color:rgb(180, 232, 214);
+    background-color:rgb(180, 229, 232);
     display: flex;
     flex-direction: column;
     width: 310px;
     border-radius: 10px;
     margin-right: 200px;
-
+    height: 270px;
+    text-align: center;
 }
 
 .article3 img
@@ -370,6 +408,7 @@ body
 .Footer
 {
     display: flex;
+    background-color: white;
 }
 
 .Instagram img
