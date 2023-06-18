@@ -53,6 +53,13 @@ body
     margin-right: 150px;
 }
 
+#Hr
+{
+    height: 4px;
+    background-color: #b7d3db;
+    border: none;
+}
+
 .navbar ul li a 
 {
     text-decoration: none;
@@ -235,22 +242,23 @@ input#submit:hover
     width: 100%;
 }
 
-.Footer
+.footer
 {
     display: flex;
+    background-color: white;
 }
 
-.Instagram img
+.instagram img
 {
     width: 100%;
 }
 
-.Facebook img
+.facebook img
 {
     width: 120%;
 }
 
-.Facebook
+.facebook
 {
     margin-top: 10px;
     width: 100px;
@@ -260,7 +268,7 @@ input#submit:hover
     cursor: pointer;
 }
 
-.Instagram 
+.instagram 
 {
     margin-top: 20px;
     width: 80px;
@@ -272,32 +280,27 @@ input#submit:hover
 
 .addresse
 {
-    border-style:outset ;
-    margin-top: 30px;
+    margin-top: 35px;
     height: 20px;
     text-decoration: underline;
     border-color: white;
-    border-radius: 10px;
-    padding: 2px;
-
 }
 
-.Footer span
-{
-    border-style:outset ;
+.footer span
+{   
+    border: white;
     margin-top: 30px;
     margin-left: 10px;
     height: 20px;
-    border-radius: 10px;
-    padding: 2px;
+    border-style:outset;
+
 }
 
 .mail
 {
     border-style:outset ;
+    text-decoration: underline;
     margin-top: 30px;
     margin-left: 10px;
     height: 20px;
-    border-radius: 10px;
-    padding: 2px;
 }
